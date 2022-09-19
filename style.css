@@ -31,6 +31,10 @@ form input {
 button ion-icon {
   margin-top: 4px;
 }
+input:focus{
+    outline: none;
+    border: none;
+}
 form button {
   padding: 0.3rem;
   font-size: 2rem;
@@ -84,4 +88,10 @@ background: white;
   padding:1rem ;
   cursor: pointer;
   font-size: 1.2rem;
+}
+.todo-item{
+    padding:  0rem 0.5rem;
+}
+ion-icon{
+pointer-events: none;
 }
